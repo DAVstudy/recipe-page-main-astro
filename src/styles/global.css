@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Colors  and fonts */
+@theme {
+    --color-theme-stone-100: hsl(30, 54%, 90%);
+    --color-theme-stone-150: hsl(30, 18%, 87%);
+    --color-theme-stone-600: hsl(30, 10%, 34%);
+    --color-theme-stone-900: hsl(24, 5%, 18%);
+
+    --color-theme-brown-800: hsl(14, 45%, 36%);
+
+    --color-theme-rose-800: hsl(332, 51%, 32%);
+    --color-theme-rose-50: hsl(330, 100%, 98%);
+
+}
+
+
+@font-face {
+    font-family: "Outfit";
+    src: url("/fonts/outfit/static/Outfit-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "Outfit";
+    src: url("/fonts/outfit/static/Outfit-SemiBold.ttf") format("ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+@font-face {
+    font-family: "Outfit";
+    src: url("/fonts/outfit/static/Outfit-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "Young";
+    src: url("fonts/young/static/Young-Regular.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    background-color: var(--color-theme-stone-100);
+}
